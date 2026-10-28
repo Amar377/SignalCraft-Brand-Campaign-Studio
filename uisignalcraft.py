@@ -6,7 +6,7 @@ import requests
 import streamlit as st
 from dotenv import load_dotenv
 load_dotenv()
-API=os.getenv("API_URL","http://127.0.0.1:8000").rstrip("/")
+API=os.getenv("API_URL","https://signalcraft-brand-campaign-studio.onrender.com").rstrip("/")
 st.set_page_config(page_title="SignalCraft | Brand & Campaign Studio",page_icon="✨",layout="wide")
 st.markdown("""<style>
 :root { --sc-ink:#172033; --sc-muted:#64748b; --sc-accent:#6d5dfc; }
